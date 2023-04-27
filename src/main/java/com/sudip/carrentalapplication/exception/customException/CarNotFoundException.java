@@ -1,4 +1,4 @@
-package com.sudip.carrentalapplication.exception;
+package com.sudip.carrentalapplication.exception.customException;
 
 public class CarNotFoundException extends RuntimeException {
 

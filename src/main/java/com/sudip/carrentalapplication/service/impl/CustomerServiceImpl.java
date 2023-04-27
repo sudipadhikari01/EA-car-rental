@@ -3,7 +3,7 @@ package com.sudip.carrentalapplication.service.impl;
 import com.sudip.carrentalapplication.domain.Customer;
 import com.sudip.carrentalapplication.domain.Customers;
 import com.sudip.carrentalapplication.dto.CustomerDTO;
-import com.sudip.carrentalapplication.exception.CustomerNotFoundException;
+import com.sudip.carrentalapplication.exception.customException.CustomerNotFoundException;
 import com.sudip.carrentalapplication.repository.CustomerRepository;
 import com.sudip.carrentalapplication.service.CustomerService;
 import org.modelmapper.ModelMapper;

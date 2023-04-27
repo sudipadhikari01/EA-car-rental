@@ -5,14 +5,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+public class Cars implements Serializable {
 
-public class Car implements Serializable {
-    private String licensePlate;
-    private String carType;
-    private String brand;
-    private Double price;
+    private List<Car> cars = new ArrayList<>();
+
 }

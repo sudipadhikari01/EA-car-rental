@@ -19,7 +19,7 @@ public class Reservation {
     @JoinColumn(name = "reservation_id")
     private Long id;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "customer_id")
     private Customer customer;
 
